@@ -1,5 +1,5 @@
-CODE_PATH="xxx.py"
-INPUT_ROOT_DIR="test_data"
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+source "$SCRIPT_DIR/run.flags"
 
 run_test() {
     local label=$1

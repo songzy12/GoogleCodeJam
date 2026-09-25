@@ -5,3 +5,5 @@
 *.zip
 
 tmp/
+
+run.flags
