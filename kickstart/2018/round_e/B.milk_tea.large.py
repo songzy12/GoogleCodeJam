@@ -53,6 +53,7 @@ def solve(p, f, P):
                 visited.add(''.join(next_config))
             heappush(heap, [cur_cost + c, next_config])
 
+
 for t in range(1, T + 1):
     N, M, P = map(int, input().split())
     p = []

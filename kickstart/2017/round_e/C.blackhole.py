@@ -16,3 +16,4 @@
 # A circle of radius 3R centered at the point in circle A
 # A circle of radius 3R centered at the point in circle C
 # So, if those three circles have any common intersection, then we know that radius R is valid, without having to choose a specific point K.
+

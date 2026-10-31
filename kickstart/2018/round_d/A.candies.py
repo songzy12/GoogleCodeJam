@@ -32,3 +32,4 @@ for t in range(1, T + 1):
         return str(ans) if ans != None else "IMPOSSIBLE"
 
     print("Case #%d: %s" % (t, solve(N, O, D, X1, X2, A, B, C, M, L)))
+

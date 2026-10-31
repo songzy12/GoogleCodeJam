@@ -27,3 +27,4 @@ for t in range(1, T + 1):
     for m in range(M):
         f.append(input())
     print("Case #%d: %d" % (t, solve(p, f, P)))
+
